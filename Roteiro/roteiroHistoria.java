@@ -84,7 +84,7 @@ public class roteiroHistoria {
             }
 
 
-            
+
         } else { // História da feiticeira
             System.out.println("\nA feiticeira " + nome + " possuía uma conexão profunda com as forças mágicas do reino.\n"
             + "Seus poderes eram vastos e ela era respeitada por seu conhecimento e habilidades.\n"
@@ -151,7 +151,7 @@ public class roteiroHistoria {
 
 
 
-
+    
     public static int repetidorErro(Scanner leitor) { 
         int alt; //método para repetir a pergunta em caso resposta inválida
 
