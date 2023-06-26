@@ -6,7 +6,7 @@ public class Personagem {
     private String cor;
     private String sexo;
     private int energia;
-
+    
     public Personagem(String nome, int idade, String cor, String sexo) {
         this.nome = nome;
         this.idade = idade;
