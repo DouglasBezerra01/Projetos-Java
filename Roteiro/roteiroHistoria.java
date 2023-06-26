@@ -80,11 +80,11 @@ public class roteiroHistoria {
                     +"Eldoria cai nas mãos do mal e enfrenta uma era sombria. O guerreiro é lembrado como um mártir corajoso,"
                     +"mas o reino sofre sob o domínio tirânico do vilão.");
                 }
-                
+
             }
 
 
-
+            
         } else { // História da feiticeira
             System.out.println("\nA feiticeira " + nome + " possuía uma conexão profunda com as forças mágicas do reino.\n"
             + "Seus poderes eram vastos e ela era respeitada por seu conhecimento e habilidades.\n"
