@@ -17,7 +17,8 @@ public class roteiroHistoria {
         System.out.print("[0] Para escolher a classe guerreiro\n"
         + "[1] Para escolher a classe feiticeiro\n");
         System.out.print("- ");
-        alt = repetidorErro(leitor);
+        alt = repetidorErro(leitor); 
+
 
         if (alt == 0) { // História do guerreiro
             System.out.println("\nO guerreiro " + nome + " era um habilidoso guerreiro treinado nas artes da espada desde tenra idade.\n"
