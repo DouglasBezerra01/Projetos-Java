@@ -80,7 +80,7 @@ public class roteiroHistoria {
                     +"Eldoria cai nas mãos do mal e enfrenta uma era sombria. O guerreiro é lembrado como um mártir corajoso,"
                     +"mas o reino sofre sob o domínio tirânico do vilão.");
                 }
-
+                
             }
 
 
