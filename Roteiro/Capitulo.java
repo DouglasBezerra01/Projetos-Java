@@ -4,14 +4,22 @@ import java.util.Scanner;
 
 public class Capitulo {
     String roteiro;
-    String escolha1;
-    String escolha2;
+    String[] escolhas;
     int gasto = 0;
+
+    public Capitulo(int escolha){ // Objeto construtor que recebe o numero de escolhas como parametro
+        escolhas = new String[escolha];
+    }
 
     public void mostrar(Personagem a) {
         System.out.println(roteiro);
-        System.out.println("[1] " + escolha1);
-        System.out.println("[2] " + escolha2);
+
+        int contador = 0;
+        for (String str : escolhas){
+            System.out.println("[" + contador + "] "+ str);
+            contador++;
+        }
+
         if (gasto != 0) {
             a.gastarEnergia(gasto);
 
@@ -19,17 +27,17 @@ public class Capitulo {
     }
 
     public int escolha(Scanner leitor) {
-        int alt; // método para repetir a pergunta em caso resposta inválida
+        int alt; // Método para repetir a pergunta em caso resposta inválida
+        int max = escolhas.length;
 
         do {
             alt = leitor.nextInt();
 
-            if (alt != 1 && alt != 2) {
-                System.out.println("Tente novamente. Lembre-se, apenas [ 1 ] ou [ 2 ].");
+            if (alt >= max || alt<0) {
+                System.out.println("Opção inválida. Tente novamente.");
             }
             leitor.nextLine();
-        } while (alt != 1 && alt != 2);
+        } while (alt >= max || alt<0);
         return alt;
     }
-
 }
