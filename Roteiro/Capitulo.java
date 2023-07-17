@@ -1,32 +1,45 @@
 package Roteiro;
 
 import java.util.Scanner;
+import java.util.ArrayList;
 
 public class Capitulo {
     String roteiro;
-    String[] escolhas;
+    ArrayList<Escolha> escolhas;
+    Personagem PjPrincipal;
+    Scanner leitor;
     int gasto = 0;
 
-    public Capitulo(int escolha){ // Objeto construtor que recebe o numero de escolhas como parametro
-        escolhas = new String[escolha];
+    public Capitulo(Scanner l, Personagem p){ // Objeto construtor que recebe o numero de escolhas como parametro
+        this.escolhas = new ArrayList<Escolha>();
+        this.PjPrincipal = p;
+        this.leitor = l;
     }
 
-    public void mostrar(Personagem a) {
+    public void executa(){
+        this.mostrar();
+        if (this.escolha.size() > 0){
+            int resposta = this.escolha();
+            this.escolhas.get(resposta).next();
+        }
+    }
+    
+    private void mostrar() {
         System.out.println(roteiro);
 
         int contador = 0;
-        for (String str : escolhas){
-            System.out.println("[" + contador + "] "+ str);
+        for (Escolha esc : escolhas){
+            System.out.println("[" + contador + "] "+ esc.get_texto());
             contador++;
         }
 
         if (gasto != 0) {
-            a.gastarEnergia(gasto);
+            PjPrincipal.gastarEnergia(gasto);
 
         }
     }
 
-    public int escolha(Scanner leitor) {
+    private int escolha() {
         int alt; // Método para repetir a pergunta em caso resposta inválida
         int max = escolhas.length;
 
