@@ -8,56 +8,55 @@ public class roteiroHistoria {
         Personagem jogador = new Personagem();
         jogador.setNome("Fulano");
 
-        Capitulo cap00 = new Capitulo(2);
+        Capitulo cap00 = new Capitulo(leitor, jogador);
         cap00.roteiro = "Era uma vez em um reino distante chamado Eldoria, onde duas figuras extraordinárias estavam\n"
                 + "destinadas a moldar o futuro do reino.\n"
                 + "Você tem a opção de escolher entre dois personagens:\n"
                 + "um é um jovem guerreiro, enquanto o outro é uma talentosa feiticeira. Ambos têm um objetivo em comum:\n"
                 + "proteger o reino e derrotar uma força malévola que ameaça a paz de Eldoria.\n";
-        cap00.escolhas[0] = "Para escolher a classe guerreiro\n";
-        cap00.escolhas[1] = "Para escolher a classe feiticeiro\n";
-        cap00.mostrar(jogador);
+        //cap00.escolhas[0] = "Para escolher a classe guerreiro\n";
+        //cap00.escolhas[1] = "Para escolher a classe feiticeiro\n";
+        //cap00.mostrar(jogador);
 
-        if (cap00.escolha(leitor) == 0) { // História do guerreiro
+        //if (cap00.escolha(leitor) == 0) { // História do guerreiro
 
-            Capitulo capG01 = new Capitulo(2);
-            capG01.roteiro = "\nO guerreiro " + jogador.getNome()
+        Capitulo capG01 = new Capitulo(leitor, jogador);
+        capG01.roteiro = "\nO guerreiro " + jogador.getNome()
                     + " era um habilidoso guerreiro treinado nas artes da espada desde tenra idade.\n"
                     + "Com sua armadura reluzente e sua espada afiada, ele era conhecido por sua força e coragem.\n"
                     + "Sua determinação em proteger Eldoria era inabalável. O rei do reino o convocou para uma audiência real\n"
                     + "e confiou-lhe a missão de encontrar a lendária Espada da Luz, capaz de destruir o mal que assolava o reino.\n"
                     + jogador.getNome() + " partiu em sua jornada em busca do artefato lendário.\n";
-            capG01.escolhas[0] = "Procurar entrada para uma antiga caverna\n";
-            capG01.escolhas[1] = "Procurar templo sagrado nas monstanhas\n";
-            capG01.mostrar(jogador);
+            //capG01.escolhas[0] = "Procurar entrada para uma antiga caverna\n";
+            //capG01.escolhas[1] = "Procurar templo sagrado nas monstanhas\n";
+            //capG01.mostrar(jogador);
 
-            if (capG01.escolha(leitor) == 0) { // História 1 do guerreiro
-                Capitulo capG02 = new Capitulo(2);
-                capG02.roteiro = "\nApós dias de busca incansável, " + jogador.getNome()
+         Capitulo capG02 = new Capitulo(leitor, jogador);
+         capG02.roteiro = "\nApós dias de busca incansável, " + jogador.getNome()
                         + " finalmente encontrou a entrada para uma antiga caverna.\n"
                         + "Dentro da caverna, enfrentou diversos desafios e criaturas místicas, mas sua coragem não o abandonou.\n"
                         + "No coração da caverna, encontrou a lendária Espada da Luz, que irradiava um brilho divino.\n"
                         + jogador.getNome() + " empunhou a espada e sentiu um poder inigualável percorrer seu corpo.\n"
                         + "Agora, com a Espada da Luz em mãos, ele está pronto para enfrentar o mal e proteger Eldoria.\n";
 
-                capG02.escolhas[0] = "Procurar pela fortaleza\n";
-                capG02.escolhas[1] = "Lutar valentemente\n";
-                capG02.mostrar(jogador);
+              // capG02.escolhas[0] = "Procurar pela fortaleza\n";
+              //  capG02.escolhas[1] = "Lutar valentemente\n";
+              //  capG02.mostrar(jogador);
 
-                if (capG02.escolha(leitor) == 0) { // Final 1.1 guerreiro
-                    System.out.println(
-                            "\nApós enfrentar batalhas épicas e superar todos os obstáculos, o guerreiro, nomeado herói de Eldoria,\n"
+              //  if (capG02.escolha(leitor) == 0) { // Final 1.1 guerreiro
+              //      System.out.println(
+        Capitulo capG021 = new Capitulo(leitor, jogador);
+        capG021.roteiro = "\nApós enfrentar batalhas épicas e superar todos os obstáculos, o guerreiro, nomeado herói de Eldoria,\n" 
                                     + "finalmente localiza a fortaleza do mal. Ele confronta o vilão em uma batalha intensa e,\n"
                                     + "com a ajuda da Espada da Luz, derrota o mal e restaura a paz em Eldoria. O guerreiro é celebrado\n"
-                                    + "como o protetor do reino e vive o resto de seus dias como um símbolo de esperança e coragem.");
+                                    + "como o protetor do reino e vive o resto de seus dias como um símbolo de esperança e coragem.";
 
-                } else { // Final 1.2 guerreiro
-                    System.out.println(
-                            "\nO guerreiro luta valentemente contra as forças do mal, mas é derrotado na batalha final.\n"
+        Capitulo capG022 = new Capitulo(leitor, jogador);
+        capG021.roteiro = "\nO guerreiro luta valentemente contra as forças do mal, mas é derrotado na batalha final.\n"
                                     + "Ele sacrifica sua própria vida para proteger Eldoria, deixando um legado de coragem e inspiração\n"
                                     + "para as gerações futuras. Embora seu corpo tenha perecido, seu espírito permanece vivo nos\n"
-                                    + "corações do povo de Eldoria, que se unem para honrar sua memória e continuar a luta contra o mal.");
-                }
+                                    + "corações do povo de Eldoria, que se unem para honrar sua memória e continuar a luta contra o mal.";
+        
 
             } else { // História 2 do guerreiro
                 Capitulo capG03 = new Capitulo(2);
@@ -162,5 +161,12 @@ public class roteiroHistoria {
                 }
             }
         }
+
+        //Continua
+        cap00.escolhas.add(new Escolha("Procurar entrada para uma antiga caverna\n",capG01);
+        cap00.escolhas.add(new Escolha("Procurar templo sagrado nas monstanhas\n",capF01);        
+
+        //Rodar jogo
+        cap00.executar()
     }
 }
