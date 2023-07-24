@@ -4,7 +4,7 @@ public class Escolha {
     private String texto;
     private Capitulo proximo;
 
-    public void Escolha( String s, Capitulo c){
+    public Escolha( String s, Capitulo c){
         this.texto = s;
         this.proximo = c;
     }

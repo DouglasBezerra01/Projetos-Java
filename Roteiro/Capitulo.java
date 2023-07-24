@@ -18,7 +18,7 @@ public class Capitulo {
 
     public void executa(){
         this.mostrar();
-        if (this.escolha.size() > 0){
+        if (this.escolhas.size() > 0){
             int resposta = this.escolha();
             this.escolhas.get(resposta).next();
         }
@@ -41,7 +41,7 @@ public class Capitulo {
 
     private int escolha() {
         int alt; // Método para repetir a pergunta em caso resposta inválida
-        int max = escolhas.length;
+        int max = escolhas.size();
 
         do {
             alt = leitor.nextInt();
