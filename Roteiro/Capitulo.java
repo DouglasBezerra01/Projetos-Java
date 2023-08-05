@@ -4,11 +4,15 @@ import java.util.Scanner;
 import java.util.ArrayList;
 
 public class Capitulo {
-    String roteiro;
-    ArrayList<Escolha> escolhas;
-    Personagem PjPrincipal;
-    Scanner leitor;
-    int gasto = 0;
+    private String roteiro;
+    private ArrayList<Escolha> escolhas;
+    private Personagem PjPrincipal;
+    private Scanner leitor;
+    private int gasto = 0;
+
+    public void setRoteiro(String roteiro) {
+        this.roteiro = roteiro; // Receber o roteiro
+    }
 
     public Capitulo(Scanner l, Personagem p){ // Objeto construtor que recebe o numero de escolhas como parametro
         this.escolhas = new ArrayList<Escolha>();
@@ -52,5 +56,9 @@ public class Capitulo {
             leitor.nextLine();
         } while (alt >= max || alt<0);
         return alt;
+    }
+
+    public void addEscolha(Escolha e){ 
+        this.escolhas.add(e); // Adciona a escolha à lista de escolha
     }
 }
