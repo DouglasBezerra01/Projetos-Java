@@ -3,13 +3,11 @@ package Roteiro;
 public class Personagem {
     private String nome;
     private int idade;
-    private String classe;
     private int energia;
 
-    public Personagem(String nome, int idade, String classe) {
+    public Personagem(String nome, int idade) {
         this.nome = nome;
         this.idade = idade;
-        this.classe = classe;
         this.energia = 10;
     }
 
@@ -27,10 +25,6 @@ public class Personagem {
 
     public int getIdade() {
         return idade;
-    }
-
-    public String getClasse() {
-        return classe;
     }
 
     public int getEnergia() {

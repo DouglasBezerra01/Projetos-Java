@@ -10,6 +10,10 @@ public class Capitulo {
     private Scanner leitor;
     private int gasto = 0;
 
+    public void setGasto(int gasto) {
+        this.gasto = gasto;
+    }
+
     public void setRoteiro(String roteiro) {
         this.roteiro = roteiro; // Receber o roteiro
     }
@@ -29,7 +33,7 @@ public class Capitulo {
     }
     
     private void mostrar() {
-        System.out.println(roteiro);
+        System.out.println(roteiro.replace("&", "\n").replace("jogador.getNome()", PjPrincipal.getNome())); // Mostrar o roteiro
 
         int contador = 0;
         for (Escolha esc : escolhas){
@@ -60,5 +64,9 @@ public class Capitulo {
 
     public void addEscolha(Escolha e){ 
         this.escolhas.add(e); // Adciona a escolha à lista de escolha
+    }
+
+    public void addEscolha(String texto, Capitulo cap){ // Adciona a escolha à lista de escolha
+        this.escolhas.add(new Escolha(texto, cap));
     }
 }

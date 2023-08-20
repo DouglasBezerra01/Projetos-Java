@@ -1,0 +1,150 @@
+CAPITULO
+cap00
+&Era uma vez, em um reino distante chamado Eldoria, um mal antigo ressurgiu das sombras.& O reino estava em perigo e precisava de um herói para salvá-lo. O rei convocou os bravos guerreiros e feiticeiros& do reino para uma audiência real e confiou-lhes a missão de encontrar um artefato lendário capaz de destruir o mal.& Os guerreiros e feiticeiros partiram em suas jornadas em busca do artefato lendário.&
+0
+
+CAPITULO
+capG00
+&O guerreiro jogador.getNome() era um habilidoso guerreiro treinado nas artes da espada desde tenra idade.& Com sua armadura reluzente e sua espada afiada, ele era conhecido por sua força e coragem.& Sua determinação em proteger Eldoria era inabalável. O rei do reino o convocou para uma audiência real& e confiou-lhe a missão de encontrar a lendária Espada da Luz, capaz de destruir o mal que assolava o reino.& jogador.getNome()   partiu em sua jornada em busca do artefato lendário.&
+0
+
+CAPITULO
+capG01
+&Após dias de busca incansável,   jogador.getNome() finalmente encontrou a entrada para uma antiga caverna.& Dentro da caverna, enfrentou diversos desafios e criaturas místicas, mas sua coragem não o abandonou.& No coração da caverna, encontrou a lendária Espada da Luz, que irradiava um brilho divino.& jogador.getNome()   empunhou a espada e sentiu um poder inigualável percorrer seu corpo.& Agora, com a Espada da Luz em mãos, ele está pronto para enfrentar o mal e proteger Eldoria.&
+0
+
+CAPITULO
+capG011
+&Após enfrentar batalhas épicas e superar todos os obstáculos, o guerreiro, nomeado herói de Eldoria,& finalmente localiza a fortaleza do mal. Ele confronta o vilão em uma batalha intensa e,& com a ajuda da Espada da Luz, derrota o mal e restaura a paz em Eldoria. O guerreiro é celebrado& como o protetor do reino e vive o resto de seus dias como um símbolo de esperança e coragem.
+0
+
+CAPITULO
+capG012
+&Após enfrentar batalhas épicas e superar todos os obstáculos, o guerreiro, nomeado herói de Eldoria,&  finalmente localiza a fortaleza do mal. Ele confronta o vilão em uma batalha intensa e,& com a ajuda da Espada da Luz, derrota o mal e restaura a paz em Eldoria. O guerreiro é celebrado& como o protetor do reino e vive o resto de seus dias como um símbolo de esperança e coragem.
+0
+
+CAPITULO
+capG02
+&Depois de meses de busca,   jogador.getNome() finalmente chegou ao templo sagrado escondido nas montanhas.& Lá, ele foi recebido pelos monges guardiões do templo, que reconheceram sua coragem e determinação.& Eles revelaram a ele a localização da lendária Espada da Luz, que estava selada dentro de um santuário.& Com a benção dos monges,   jogador.getNome()adentrou o santuário e, enfrentando armadilhas perigosas, alcançou a espada.& Ao empunhar a Espada da Luz, sentiu um poder divino fluir através de seu corpo, fortalecendo sua determinação em proteger Eldoria.& Agora, equipado com a espada lendária, ele está pronto para enfrentar qualquer desafio que surja em seu caminho.&
+0
+
+CAPITULO
+capG021
+&Ao enfrentar inúmeras adversidades, o guerreiro finalmente encontra o líder das forças malignas& e o desafia em um duelo decisivo. Com sua habilidade e determinação, ele derrota o vilão e& destrói o mal que assolava Eldoria. O guerreiro retorna como um herói aclamado,& recebendo honrarias e gratidão de todo o reino.
+0
+
+CAPITULO
+capG022
+&O guerreiro enfrenta o líder das forças malignas em uma batalha épica, mas suas forças são superadas.& Ele é derrotado e capturado pelo vilão, que usa sua energia para alimentar sua maldade.& Eldoria cai nas mãos do mal e enfrenta uma era sombria. O guerreiro é lembrado como um mártir corajoso, mas o reino sofre sob o domínio tirânico do vilão.
+0
+
+CAPITULO
+capF00
+&A feiticeira jogador.getNome() possuía uma conexão profunda com as forças mágicas do reino.& Seus poderes eram vastos e ela era respeitada por seu conhecimento e habilidades.& Quando soube da ameaça que pairava sobre Eldoria, ela se ofereceu para ajudar a proteger o reino.& A rainha do reino, impressionada com seu talento, confiou a ela uma missão crucial: recuperar o Cetro da Sabedoria.& jogador.getNome() partiu em busca desse artefato mágico para utilizar seu poder em prol da justiça.&
+0
+
+CAPITULO
+capF01
+&Após uma intensa pesquisa nos antigos registros mágicos, jogador.getNome() descobriu que o Cetro da Sabedoria& estava guardado em uma torre encantada no coração da Floresta Proibida. Armada com seus conhecimentos e feitiços,& jogador.getNome() adentrou a floresta sombria, enfrentando criaturas místicas e desvendando enigmas mágicos para chegar à torre.& No topo da torre, encontrou o Cetro da Sabedoria, emanando uma luz brilhante e poderosa.& Ao segurar o cetro,   jogador.getNome() sentiu um fluxo de energia mágica percorrer seu corpo, capacitando-a com um poder além de sua imaginação.& Agora, com o Cetro da Sabedoria em mãos, ela está pronta para enfrentar as trevas e proteger Eldoria.&
+0
+
+CAPITULO
+capF011
+&Após uma intensa pesquisa nos antigos registros mágicos, jogador.getNome() descobriu que o Cetro da Sabedoria& estava guardado em uma torre encantada no coração da Floresta Proibida. Armada com seus conhecimentos e feitiços,& jogador.getNome() adentrou a floresta sombria, enfrentando criaturas místicas e desvendando enigmas mágicos para chegar à torre.& No topo da torre, encontrou o Cetro da Sabedoria, emanando uma luz brilhante e poderosa.& Ao segurar o cetro,   jogador.getNome() sentiu um fluxo de energia mágica percorrer seu corpo, capacitando-a com um poder além de sua imaginação.& Agora, com o Cetro da Sabedoria em mãos, ela está pronta para enfrentar as trevas e proteger Eldoria.&
+0
+
+CAPITULO
+capF012
+&Ao se aventurar pelo covil do mal, a feiticeira é enfeitiçada por uma armadilha astuta. Seus poderes são aprisionados,& ela se torna impotente diante do vilão. Eldoria cai nas mãos do mal e a feiticeira, sem seus poderes, é condenada a viver& uma vida de desespero e arrependimento. Seu destino serve como um lembrete trágico dos perigos da ambi\u00E7\u00E3o desmedida.
+0
+
+CAPITULO
+capF02
+&Guiada por visões místicas, jogador.getNome() embarcou em uma jornada até as Montanhas Celestiais,& um lugar sagrado onde o conhecimento ancestral estava preservado. Lá, ela enfrentou os desafios do labirinto mágico,& com armadilhas e testes de sabedoria.& Após superar cada obstáculo,   jogador.getNome() chegou ao Templo da Ascensão, onde a sabedoria cósmica estava guardada.& No coração do templo, encontrou o Cetro da Sabedoria, irradiando uma luz divina.& Ao segurar o cetro,   jogador.getNome() sentiu uma conexão profunda com o cosmos, seus poderes se ampliaram e sua determinação foi reforçada.& Agora, com o Cetro da Sabedoria em mãos, ela está pronta para enfrentar qualquer desafio e proteger Eldoria com sua magia.&
+0
+
+CAPITULO
+capF021 
+&A feiticeira, guiada por visões cósmicas, se torna uma aprendiz dos mestres da magia nas Montanhas Celestiais.& Ela aprimora seus poderes e recebe ensinamentos ancestrais. Com o Cetro da Sabedoria como sua ferramenta,& ela retorna a Eldoria e usa sua magia para eliminar as forças do mal. O reino floresce sob sua proteção,& enquanto ela continua sua jornada como a guardiã da magia.&
+0
+
+CAPITULO
+capF22
+&A feiticeira embarca em uma jornada perigosa para dominar seu novo poder com o Cetro da Sabedoria.& No entanto, a busca pelo conhecimento proibido a consome, e ela se deixa levar pela escuridão.& Ela se torna uma feiticeira maligna, espalhando caos e destruição em Eldoria. O reino é mergulhado em trevas, seu nome se torna sinônimo de medo e desespero.&
+0
+
+
+ESCOLHA
+cap00
+Escolher classe guerreiro
+capG00
+
+ESCOLHA
+capG00
+Procurar entrada para uma antiga caverna
+capG01
+
+ESCOLHA
+capG01
+Procurar pela fortaleza
+capG011
+
+ESCOLHA
+capG01
+Lutar valentemente
+capG012
+
+ESCOLHA
+capG00
+Procurar templo sagrado nas monstanhas
+capG02
+
+ESCOLHA
+capG02
+Enfrentar os inimigos menores primeiro
+capG021
+
+ESCOLHA
+capG02
+Lutar de frente com o líder maligno
+capG022
+
+
+
+ESCOLHA
+cap00
+Escolher classe feiticeira
+capF00
+
+ESCOLHA
+capF00
+Pesquisar em registros antigos
+capF01
+
+ESCOLHA
+capF01
+Lutar diretamente com o vil\u00E3o no covil
+capF011
+
+ESCOLHA
+capF01
+Esgueirar-se pelo covil para emboscar o vilão
+capF012
+
+ESCOLHA
+capF00
+Usar leituras de visão
+capF02
+
+ESCOLHA
+capF02
+Lutar diretamente com o vilão no covil
+capF021
+
+ESCOLHA
+capF02
+Esgueirar-se pelo covil para emboscar o vilão
+capF022
+
+
+FIM
