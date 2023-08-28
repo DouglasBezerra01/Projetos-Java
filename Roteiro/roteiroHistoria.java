@@ -34,6 +34,23 @@ public class roteiroHistoria {
                                 String destino = sc.nextLine();
 
                                 listaCapitulos.get(origem).addEscolha(new Escolha(escolha, listaCapitulos.get(destino)));//adiciona escolha
+
+                        } else if (line.equalsIgnoreCase("Cap_imagem")){ //lista de imagens
+                                String nome = sc.nextLine();
+                                String roteiro = sc.nextLine();
+                                int gastoEnergia = Integer.parseInt(sc.nextLine());
+                                String linhatemp;
+                                String imagem = "";
+                                while(true){
+                                        linhatemp = sc.nextLine();
+                                        if (linhatemp.equalsIgnoreCase("fim")) break;
+                                        imagem += linhatemp + "\n";
+                                }
+                                Cap_imagem capt = new Cap_imagem(leitor, jogador);
+                                listaCapitulos.put(nome, capt); //lista de capitulos
+                                capt.setRoteiro(roteiro);
+                                capt.setGasto(gastoEnergia);
+                                capt.setImagem(imagem);
                         }
                 }
                 sc.close();
